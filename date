@@ -46,12 +46,12 @@ body{
 
     if (hrs < 12)
         greet = 'Good Morning  ';
-    else if (hrs >= 12 && hrs <= 17)
+    else if (hrs >= 12 && hrs <= 18)
         greet = 'Good Afternoon ';
-    else if (hrs >= 17 && hrs <= 24)
+    else if (hrs >= 18 && hrs <= 24)
         greet = 'Good Evening  ';
 
     document.getElementById('lbl').innerHTML =
-        greet+=`<div id="date"> It's ${date}</div>`;
+         greet+= "Saheena " +`<div id="date"> It's ${date}</div>`;
 </script> 
 </html>
